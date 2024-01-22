@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
+  # This exposes all the function in the klaviyo_controller to be exposed
   resources :klaviyo
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
